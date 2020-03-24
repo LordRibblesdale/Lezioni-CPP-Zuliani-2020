@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.obj"
   "CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Dolce.cpp.obj"
   "CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Merendina.cpp.obj"
+  "CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15/Main.cpp.obj"
   "Projects_CPP.exe"
   "Projects_CPP.exe.manifest"
   "Projects_CPP.pdb"

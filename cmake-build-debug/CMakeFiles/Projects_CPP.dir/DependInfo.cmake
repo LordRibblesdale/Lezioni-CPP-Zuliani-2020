@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Projects_CPP/Exercises/Exercise 14 (TODO 3)/Ciambellone.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.obj"
   "D:/Projects_CPP/Exercises/Exercise 14 (TODO 3)/Dolce.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Dolce.cpp.obj"
   "D:/Projects_CPP/Exercises/Exercise 14 (TODO 3)/Merendina.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Merendina.cpp.obj"
+  "D:/Projects_CPP/Exercises/Exercise 15/Main.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15/Main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
