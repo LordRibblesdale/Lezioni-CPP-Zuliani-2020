@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Projects_CPP/Exercises/Exercise 13/Main.cpp
+iostream
+-
+ctime
+-
+Smartphone.h
+D:/Projects_CPP/Exercises/Exercise 13/Smartphone.h
+
+D:/Projects_CPP/Exercises/Exercise 13/Smartphone.cpp
+Smartphone.h
+D:/Projects_CPP/Exercises/Exercise 13/Smartphone.h
+utility
+-
+
+D:/Projects_CPP/Exercises/Exercise 13/Smartphone.h
+iostream
+-
+string
+-
+Telefono.h
+D:/Projects_CPP/Exercises/Exercise 13/Telefono.h
+
+D:/Projects_CPP/Exercises/Exercise 13/Telefono.h
+string
+-
+
