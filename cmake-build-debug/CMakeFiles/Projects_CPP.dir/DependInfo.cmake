@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Projects_CPP/Exercises/Exercise 14 (TODO 3)/Ciambellone.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.obj"
-  "D:/Projects_CPP/Exercises/Exercise 14 (TODO 3)/Dolce.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Dolce.cpp.obj"
-  "D:/Projects_CPP/Exercises/Exercise 14 (TODO 3)/Merendina.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Merendina.cpp.obj"
-  "D:/Projects_CPP/Exercises/Exercise 15/Main.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15/Main.cpp.obj"
+  "C:/Users/Green/CLionProjects/Project_CPP_Zuliani/Exercises/Exercise 14/Ciambellone.cpp" "C:/Users/Green/CLionProjects/Project_CPP_Zuliani/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.obj"
+  "C:/Users/Green/CLionProjects/Project_CPP_Zuliani/Exercises/Exercise 14/Cioccolatino.cpp" "C:/Users/Green/CLionProjects/Project_CPP_Zuliani/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.obj"
+  "C:/Users/Green/CLionProjects/Project_CPP_Zuliani/Exercises/Exercise 14/Dolce.cpp" "C:/Users/Green/CLionProjects/Project_CPP_Zuliani/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.obj"
+  "C:/Users/Green/CLionProjects/Project_CPP_Zuliani/Exercises/Exercise 14/Main.cpp" "C:/Users/Green/CLionProjects/Project_CPP_Zuliani/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.obj"
+  "C:/Users/Green/CLionProjects/Project_CPP_Zuliani/Exercises/Exercise 14/Merendina.cpp" "C:/Users/Green/CLionProjects/Project_CPP_Zuliani/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

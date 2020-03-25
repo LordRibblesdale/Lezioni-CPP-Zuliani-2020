@@ -8,6 +8,7 @@
 #include "Dolce.h"
 
 class Merendina : public Dolce {
+protected:
    string marca;
    int prezzo;
 

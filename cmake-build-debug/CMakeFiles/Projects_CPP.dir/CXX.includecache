@@ -6,29 +6,19 @@
 
 #IncludeRegexTransform: 
 
-D:/Projects_CPP/Exercises/Exercise 13/Main.cpp
-iostream
--
-ctime
--
-Smartphone.h
-D:/Projects_CPP/Exercises/Exercise 13/Smartphone.h
+C:/Users/Green/CLionProjects/Project_CPP_Zuliani/Exercises/Exercise 14/Cioccolatino.cpp
+Cioccolatino.h
+C:/Users/Green/CLionProjects/Project_CPP_Zuliani/Exercises/Exercise 14/Cioccolatino.h
 
-D:/Projects_CPP/Exercises/Exercise 13/Smartphone.cpp
-Smartphone.h
-D:/Projects_CPP/Exercises/Exercise 13/Smartphone.h
-utility
--
+C:/Users/Green/CLionProjects/Project_CPP_Zuliani/Exercises/Exercise 14/Cioccolatino.h
+Merendina.h
+C:/Users/Green/CLionProjects/Project_CPP_Zuliani/Exercises/Exercise 14/Merendina.h
 
-D:/Projects_CPP/Exercises/Exercise 13/Smartphone.h
-iostream
--
+C:/Users/Green/CLionProjects/Project_CPP_Zuliani/Exercises/Exercise 14/Dolce.h
 string
 -
-Telefono.h
-D:/Projects_CPP/Exercises/Exercise 13/Telefono.h
 
-D:/Projects_CPP/Exercises/Exercise 13/Telefono.h
-string
--
+C:/Users/Green/CLionProjects/Project_CPP_Zuliani/Exercises/Exercise 14/Merendina.h
+Dolce.h
+C:/Users/Green/CLionProjects/Project_CPP_Zuliani/Exercises/Exercise 14/Dolce.h
 

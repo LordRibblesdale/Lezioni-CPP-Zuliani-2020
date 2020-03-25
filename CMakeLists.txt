@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 #set(CMAKE_CXX_FLAGS "-Wall -c")
 #set(CMAKE_CXX_FLAGS_DEBUG "-g")
 
-set(SourceFolder "Exercises/Exercise 13")
+#set(SourceFolder "Exercises/Exercise 13")
 #set(SourceInnerFolder "Exercises/Exercise 10 (TODO 2)/People")
 #set(SourceInnerFolder2 "Exercises/Exercise 10 (TODO 2)/Home")
 
@@ -16,6 +16,6 @@ set(SourceFolder "Exercises/Exercise 13")
 
 #add_executable(Projects_CPP ${SourceFiles} ${SourceFiles2} ${SourceFiles3} ${SourceFiles4})
 
-set(SourceFiles "Exercises/Exercise 14 (TODO 3)/Dolce.h" "Exercises/Exercise 14 (TODO 3)/Merendina.cpp" "Exercises/Exercise 14 (TODO 3)/Merendina.h" "Exercises/Exercise 14 (TODO 3)/Dolce.cpp" "Exercises/Exercise 14 (TODO 3)/Ciambellone.cpp" "Exercises/Exercise 14 (TODO 3)/Ciambellone.h" "Exercises/Exercise 15/Main.cpp")
+set(SourceFiles "Exercises/Exercise 14/Dolce.h" "Exercises/Exercise 14/Merendina.cpp" "Exercises/Exercise 14/Merendina.h" "Exercises/Exercise 14/Dolce.cpp" "Exercises/Exercise 14/Ciambellone.cpp" "Exercises/Exercise 14/Ciambellone.h" "Exercises/Exercise 14/Cioccolatino.cpp" "Exercises/Exercise 14/Cioccolatino.h" "Exercises/Exercise 14/Main.cpp")
 
 add_executable(Projects_CPP ${SourceFiles})

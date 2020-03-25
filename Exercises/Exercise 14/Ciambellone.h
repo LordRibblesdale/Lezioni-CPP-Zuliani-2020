@@ -13,9 +13,13 @@ class Ciambellone : public Dolce {
    int iSize = 0;
 
 public:
-   Ciambellone(string name, string* ingredients);
+   Ciambellone(string name, string* ingredients, int size);
 
    string descrizione() const override;
+
+   int getISize() const;
+
+   void addString(string& ingredient);
 };
 
 
