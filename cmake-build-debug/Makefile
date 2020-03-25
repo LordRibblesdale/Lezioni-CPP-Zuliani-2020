@@ -230,6 +230,87 @@ Exercises/Exercise_15/Main.cpp.s:
 	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15/Main.cpp.s
 .PHONY : Exercises/Exercise_15/Main.cpp.s
 
+Lessons/Lesson_14/Project14.obj: Lessons/Lesson_14/Project14.cpp.obj
+
+.PHONY : Lessons/Lesson_14/Project14.obj
+
+# target to build an object file
+Lessons/Lesson_14/Project14.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_14/Project14.cpp.obj
+.PHONY : Lessons/Lesson_14/Project14.cpp.obj
+
+Lessons/Lesson_14/Project14.i: Lessons/Lesson_14/Project14.cpp.i
+
+.PHONY : Lessons/Lesson_14/Project14.i
+
+# target to preprocess a source file
+Lessons/Lesson_14/Project14.cpp.i:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_14/Project14.cpp.i
+.PHONY : Lessons/Lesson_14/Project14.cpp.i
+
+Lessons/Lesson_14/Project14.s: Lessons/Lesson_14/Project14.cpp.s
+
+.PHONY : Lessons/Lesson_14/Project14.s
+
+# target to generate assembly for a file
+Lessons/Lesson_14/Project14.cpp.s:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_14/Project14.cpp.s
+.PHONY : Lessons/Lesson_14/Project14.cpp.s
+
+Lessons/Lesson_15/Project15.obj: Lessons/Lesson_15/Project15.cpp.obj
+
+.PHONY : Lessons/Lesson_15/Project15.obj
+
+# target to build an object file
+Lessons/Lesson_15/Project15.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_15/Project15.cpp.obj
+.PHONY : Lessons/Lesson_15/Project15.cpp.obj
+
+Lessons/Lesson_15/Project15.i: Lessons/Lesson_15/Project15.cpp.i
+
+.PHONY : Lessons/Lesson_15/Project15.i
+
+# target to preprocess a source file
+Lessons/Lesson_15/Project15.cpp.i:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_15/Project15.cpp.i
+.PHONY : Lessons/Lesson_15/Project15.cpp.i
+
+Lessons/Lesson_15/Project15.s: Lessons/Lesson_15/Project15.cpp.s
+
+.PHONY : Lessons/Lesson_15/Project15.s
+
+# target to generate assembly for a file
+Lessons/Lesson_15/Project15.cpp.s:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_15/Project15.cpp.s
+.PHONY : Lessons/Lesson_15/Project15.cpp.s
+
+Lessons/Lesson_16/Project16.obj: Lessons/Lesson_16/Project16.cpp.obj
+
+.PHONY : Lessons/Lesson_16/Project16.obj
+
+# target to build an object file
+Lessons/Lesson_16/Project16.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_16/Project16.cpp.obj
+.PHONY : Lessons/Lesson_16/Project16.cpp.obj
+
+Lessons/Lesson_16/Project16.i: Lessons/Lesson_16/Project16.cpp.i
+
+.PHONY : Lessons/Lesson_16/Project16.i
+
+# target to preprocess a source file
+Lessons/Lesson_16/Project16.cpp.i:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_16/Project16.cpp.i
+.PHONY : Lessons/Lesson_16/Project16.cpp.i
+
+Lessons/Lesson_16/Project16.s: Lessons/Lesson_16/Project16.cpp.s
+
+.PHONY : Lessons/Lesson_16/Project16.s
+
+# target to generate assembly for a file
+Lessons/Lesson_16/Project16.cpp.s:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_16/Project16.cpp.s
+.PHONY : Lessons/Lesson_16/Project16.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -251,6 +332,15 @@ help:
 	@echo ... Exercises/Exercise_15/Main.obj
 	@echo ... Exercises/Exercise_15/Main.i
 	@echo ... Exercises/Exercise_15/Main.s
+	@echo ... Lessons/Lesson_14/Project14.obj
+	@echo ... Lessons/Lesson_14/Project14.i
+	@echo ... Lessons/Lesson_14/Project14.s
+	@echo ... Lessons/Lesson_15/Project15.obj
+	@echo ... Lessons/Lesson_15/Project15.i
+	@echo ... Lessons/Lesson_15/Project15.s
+	@echo ... Lessons/Lesson_16/Project16.obj
+	@echo ... Lessons/Lesson_16/Project16.i
+	@echo ... Lessons/Lesson_16/Project16.s
 .PHONY : help
 
 

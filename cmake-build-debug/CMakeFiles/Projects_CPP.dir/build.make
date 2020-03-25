@@ -108,12 +108,54 @@ CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15/Main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Exercises\Exercise 15\Main.cpp" -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_15\Main.cpp.s
 
+CMakeFiles/Projects_CPP.dir/Lessons/Lesson_14/Project14.cpp.obj: CMakeFiles/Projects_CPP.dir/flags.make
+CMakeFiles/Projects_CPP.dir/Lessons/Lesson_14/Project14.cpp.obj: ../Lessons/Lesson\ 14/Project14.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Projects_CPP.dir/Lessons/Lesson_14/Project14.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Lessons\Lesson_14\Project14.cpp.obj -c "D:\Projects_CPP\Lessons\Lesson 14\Project14.cpp"
+
+CMakeFiles/Projects_CPP.dir/Lessons/Lesson_14/Project14.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projects_CPP.dir/Lessons/Lesson_14/Project14.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects_CPP\Lessons\Lesson 14\Project14.cpp" > CMakeFiles\Projects_CPP.dir\Lessons\Lesson_14\Project14.cpp.i
+
+CMakeFiles/Projects_CPP.dir/Lessons/Lesson_14/Project14.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Lessons/Lesson_14/Project14.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Lessons\Lesson 14\Project14.cpp" -o CMakeFiles\Projects_CPP.dir\Lessons\Lesson_14\Project14.cpp.s
+
+CMakeFiles/Projects_CPP.dir/Lessons/Lesson_15/Project15.cpp.obj: CMakeFiles/Projects_CPP.dir/flags.make
+CMakeFiles/Projects_CPP.dir/Lessons/Lesson_15/Project15.cpp.obj: ../Lessons/Lesson\ 15/Project15.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Projects_CPP.dir/Lessons/Lesson_15/Project15.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Lessons\Lesson_15\Project15.cpp.obj -c "D:\Projects_CPP\Lessons\Lesson 15\Project15.cpp"
+
+CMakeFiles/Projects_CPP.dir/Lessons/Lesson_15/Project15.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projects_CPP.dir/Lessons/Lesson_15/Project15.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects_CPP\Lessons\Lesson 15\Project15.cpp" > CMakeFiles\Projects_CPP.dir\Lessons\Lesson_15\Project15.cpp.i
+
+CMakeFiles/Projects_CPP.dir/Lessons/Lesson_15/Project15.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Lessons/Lesson_15/Project15.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Lessons\Lesson 15\Project15.cpp" -o CMakeFiles\Projects_CPP.dir\Lessons\Lesson_15\Project15.cpp.s
+
+CMakeFiles/Projects_CPP.dir/Lessons/Lesson_16/Project16.cpp.obj: CMakeFiles/Projects_CPP.dir/flags.make
+CMakeFiles/Projects_CPP.dir/Lessons/Lesson_16/Project16.cpp.obj: ../Lessons/Lesson\ 16/Project16.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Projects_CPP.dir/Lessons/Lesson_16/Project16.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Lessons\Lesson_16\Project16.cpp.obj -c "D:\Projects_CPP\Lessons\Lesson 16\Project16.cpp"
+
+CMakeFiles/Projects_CPP.dir/Lessons/Lesson_16/Project16.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projects_CPP.dir/Lessons/Lesson_16/Project16.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects_CPP\Lessons\Lesson 16\Project16.cpp" > CMakeFiles\Projects_CPP.dir\Lessons\Lesson_16\Project16.cpp.i
+
+CMakeFiles/Projects_CPP.dir/Lessons/Lesson_16/Project16.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Lessons/Lesson_16/Project16.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Lessons\Lesson 16\Project16.cpp" -o CMakeFiles\Projects_CPP.dir\Lessons\Lesson_16\Project16.cpp.s
+
 # Object files for target Projects_CPP
 Projects_CPP_OBJECTS = \
 "CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Merendina.cpp.obj" \
 "CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Dolce.cpp.obj" \
 "CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.obj" \
-"CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15/Main.cpp.obj"
+"CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15/Main.cpp.obj" \
+"CMakeFiles/Projects_CPP.dir/Lessons/Lesson_14/Project14.cpp.obj" \
+"CMakeFiles/Projects_CPP.dir/Lessons/Lesson_15/Project15.cpp.obj" \
+"CMakeFiles/Projects_CPP.dir/Lessons/Lesson_16/Project16.cpp.obj"
 
 # External object files for target Projects_CPP
 Projects_CPP_EXTERNAL_OBJECTS =
@@ -122,11 +164,14 @@ Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Mer
 Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Dolce.cpp.obj
 Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.obj
 Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15/Main.cpp.obj
+Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Lessons/Lesson_14/Project14.cpp.obj
+Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Lessons/Lesson_15/Project15.cpp.obj
+Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Lessons/Lesson_16/Project16.cpp.obj
 Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/build.make
 Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/linklibs.rsp
 Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/objects1.rsp
 Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Projects_CPP.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Projects_CPP.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Projects_CPP.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

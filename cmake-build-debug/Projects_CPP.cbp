@@ -103,6 +103,15 @@
 		<Unit filename="D:/Projects_CPP/Exercises/Exercise 15/Main.cpp">
 			<Option target="Projects_CPP"/>
 		</Unit>
+		<Unit filename="D:/Projects_CPP/Lessons/Lesson 14/Project14.cpp">
+			<Option target="Projects_CPP"/>
+		</Unit>
+		<Unit filename="D:/Projects_CPP/Lessons/Lesson 15/Project15.cpp">
+			<Option target="Projects_CPP"/>
+		</Unit>
+		<Unit filename="D:/Projects_CPP/Lessons/Lesson 16/Project16.cpp">
+			<Option target="Projects_CPP"/>
+		</Unit>
 		<Unit filename="D:/Projects_CPP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
