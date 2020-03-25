@@ -100,6 +100,9 @@
 		<Unit filename="D:/Projects_CPP/Exercises/Exercise 14 (TODO 3)/Merendina.h">
 			<Option target="Projects_CPP"/>
 		</Unit>
+		<Unit filename="D:/Projects_CPP/Exercises/Exercise 15/Main.cpp">
+			<Option target="Projects_CPP"/>
+		</Unit>
 		<Unit filename="D:/Projects_CPP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -6,10 +6,11 @@
 #define PROJECTS_CPP_CIAMBELLONE_H
 
 #include "Dolce.h"
+#include <iostream>
 
 class Ciambellone : public Dolce {
    string* ingredienti;
-   int size = 0;
+   int iSize = 0;
 
 public:
    Ciambellone(string name, string* ingredients);

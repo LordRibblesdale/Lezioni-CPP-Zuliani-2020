@@ -4,16 +4,22 @@
 
 #include "Ciambellone.h"
 
+using namespace std;
+
 Ciambellone::Ciambellone(string name, string* ingredients) : Dolce(move(name)) {
    ingredienti = ingredients;
 }
 
 string Ciambellone::descrizione() const {
    string description = Dolce::descrizione();
+   description.append("\nIngredienti presenti:\n");
 
-   //TODO here
+   for (int i = 0; i < iSize; i++) {
+      description.append(" -> " + ingredienti[i]);
+      description.append("\n");
+   }
 
-   return
+   return description;
 }
 
 ostream& operator<<(ostream& stream, Ciambellone& ciambellone) {

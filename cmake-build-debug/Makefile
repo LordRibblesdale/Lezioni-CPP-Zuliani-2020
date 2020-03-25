@@ -203,6 +203,33 @@ Exercises/Exercise_14_(TODO_3)/Merendina.cpp.s:
 	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Merendina.cpp.s
 .PHONY : Exercises/Exercise_14_(TODO_3)/Merendina.cpp.s
 
+Exercises/Exercise_15/Main.obj: Exercises/Exercise_15/Main.cpp.obj
+
+.PHONY : Exercises/Exercise_15/Main.obj
+
+# target to build an object file
+Exercises/Exercise_15/Main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15/Main.cpp.obj
+.PHONY : Exercises/Exercise_15/Main.cpp.obj
+
+Exercises/Exercise_15/Main.i: Exercises/Exercise_15/Main.cpp.i
+
+.PHONY : Exercises/Exercise_15/Main.i
+
+# target to preprocess a source file
+Exercises/Exercise_15/Main.cpp.i:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15/Main.cpp.i
+.PHONY : Exercises/Exercise_15/Main.cpp.i
+
+Exercises/Exercise_15/Main.s: Exercises/Exercise_15/Main.cpp.s
+
+.PHONY : Exercises/Exercise_15/Main.s
+
+# target to generate assembly for a file
+Exercises/Exercise_15/Main.cpp.s:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15/Main.cpp.s
+.PHONY : Exercises/Exercise_15/Main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -221,6 +248,9 @@ help:
 	@echo ... Exercises/Exercise_14_(TODO_3)/Merendina.obj
 	@echo ... Exercises/Exercise_14_(TODO_3)/Merendina.i
 	@echo ... Exercises/Exercise_14_(TODO_3)/Merendina.s
+	@echo ... Exercises/Exercise_15/Main.obj
+	@echo ... Exercises/Exercise_15/Main.i
+	@echo ... Exercises/Exercise_15/Main.s
 .PHONY : help
 
 
