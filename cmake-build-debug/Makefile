@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Projects_CPP
+CMAKE_SOURCE_DIR = C:\Users\Green\CLionProjects\Project_CPP_Zuliani
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Projects_CPP\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Green\CLionProjects\Project_CPP_Zuliani\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\Projects_CPP\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects_CPP\cmake-build-debug\CMakeFiles D:\Projects_CPP\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Green\CLionProjects\Project_CPP_Zuliani\cmake-build-debug\CMakeFiles C:\Users\Green\CLionProjects\Project_CPP_Zuliani\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Green\CLionProjects\Project_CPP_Zuliani\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,194 +122,140 @@ Projects_CPP/fast:
 	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/build
 .PHONY : Projects_CPP/fast
 
-Exercises/Exercise_14_(TODO_3)/Ciambellone.obj: Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.obj
+Exercises/Exercise_14/Ciambellone.obj: Exercises/Exercise_14/Ciambellone.cpp.obj
 
-.PHONY : Exercises/Exercise_14_(TODO_3)/Ciambellone.obj
-
-# target to build an object file
-Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.obj
-.PHONY : Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.obj
-
-Exercises/Exercise_14_(TODO_3)/Ciambellone.i: Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.i
-
-.PHONY : Exercises/Exercise_14_(TODO_3)/Ciambellone.i
-
-# target to preprocess a source file
-Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.i
-.PHONY : Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.i
-
-Exercises/Exercise_14_(TODO_3)/Ciambellone.s: Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.s
-
-.PHONY : Exercises/Exercise_14_(TODO_3)/Ciambellone.s
-
-# target to generate assembly for a file
-Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.s
-.PHONY : Exercises/Exercise_14_(TODO_3)/Ciambellone.cpp.s
-
-Exercises/Exercise_14_(TODO_3)/Dolce.obj: Exercises/Exercise_14_(TODO_3)/Dolce.cpp.obj
-
-.PHONY : Exercises/Exercise_14_(TODO_3)/Dolce.obj
+.PHONY : Exercises/Exercise_14/Ciambellone.obj
 
 # target to build an object file
-Exercises/Exercise_14_(TODO_3)/Dolce.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Dolce.cpp.obj
-.PHONY : Exercises/Exercise_14_(TODO_3)/Dolce.cpp.obj
+Exercises/Exercise_14/Ciambellone.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.obj
+.PHONY : Exercises/Exercise_14/Ciambellone.cpp.obj
 
-Exercises/Exercise_14_(TODO_3)/Dolce.i: Exercises/Exercise_14_(TODO_3)/Dolce.cpp.i
+Exercises/Exercise_14/Ciambellone.i: Exercises/Exercise_14/Ciambellone.cpp.i
 
-.PHONY : Exercises/Exercise_14_(TODO_3)/Dolce.i
+.PHONY : Exercises/Exercise_14/Ciambellone.i
 
 # target to preprocess a source file
-Exercises/Exercise_14_(TODO_3)/Dolce.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Dolce.cpp.i
-.PHONY : Exercises/Exercise_14_(TODO_3)/Dolce.cpp.i
+Exercises/Exercise_14/Ciambellone.cpp.i:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.i
+.PHONY : Exercises/Exercise_14/Ciambellone.cpp.i
 
-Exercises/Exercise_14_(TODO_3)/Dolce.s: Exercises/Exercise_14_(TODO_3)/Dolce.cpp.s
+Exercises/Exercise_14/Ciambellone.s: Exercises/Exercise_14/Ciambellone.cpp.s
 
-.PHONY : Exercises/Exercise_14_(TODO_3)/Dolce.s
+.PHONY : Exercises/Exercise_14/Ciambellone.s
 
 # target to generate assembly for a file
-Exercises/Exercise_14_(TODO_3)/Dolce.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Dolce.cpp.s
-.PHONY : Exercises/Exercise_14_(TODO_3)/Dolce.cpp.s
+Exercises/Exercise_14/Ciambellone.cpp.s:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.s
+.PHONY : Exercises/Exercise_14/Ciambellone.cpp.s
 
-Exercises/Exercise_14_(TODO_3)/Merendina.obj: Exercises/Exercise_14_(TODO_3)/Merendina.cpp.obj
+Exercises/Exercise_14/Cioccolatino.obj: Exercises/Exercise_14/Cioccolatino.cpp.obj
 
-.PHONY : Exercises/Exercise_14_(TODO_3)/Merendina.obj
+.PHONY : Exercises/Exercise_14/Cioccolatino.obj
 
 # target to build an object file
-Exercises/Exercise_14_(TODO_3)/Merendina.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Merendina.cpp.obj
-.PHONY : Exercises/Exercise_14_(TODO_3)/Merendina.cpp.obj
+Exercises/Exercise_14/Cioccolatino.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.obj
+.PHONY : Exercises/Exercise_14/Cioccolatino.cpp.obj
 
-Exercises/Exercise_14_(TODO_3)/Merendina.i: Exercises/Exercise_14_(TODO_3)/Merendina.cpp.i
+Exercises/Exercise_14/Cioccolatino.i: Exercises/Exercise_14/Cioccolatino.cpp.i
 
-.PHONY : Exercises/Exercise_14_(TODO_3)/Merendina.i
+.PHONY : Exercises/Exercise_14/Cioccolatino.i
 
 # target to preprocess a source file
-Exercises/Exercise_14_(TODO_3)/Merendina.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Merendina.cpp.i
-.PHONY : Exercises/Exercise_14_(TODO_3)/Merendina.cpp.i
+Exercises/Exercise_14/Cioccolatino.cpp.i:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.i
+.PHONY : Exercises/Exercise_14/Cioccolatino.cpp.i
 
-Exercises/Exercise_14_(TODO_3)/Merendina.s: Exercises/Exercise_14_(TODO_3)/Merendina.cpp.s
+Exercises/Exercise_14/Cioccolatino.s: Exercises/Exercise_14/Cioccolatino.cpp.s
 
-.PHONY : Exercises/Exercise_14_(TODO_3)/Merendina.s
+.PHONY : Exercises/Exercise_14/Cioccolatino.s
 
 # target to generate assembly for a file
-Exercises/Exercise_14_(TODO_3)/Merendina.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14_(TODO_3)/Merendina.cpp.s
-.PHONY : Exercises/Exercise_14_(TODO_3)/Merendina.cpp.s
+Exercises/Exercise_14/Cioccolatino.cpp.s:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.s
+.PHONY : Exercises/Exercise_14/Cioccolatino.cpp.s
 
-Exercises/Exercise_15/Main.obj: Exercises/Exercise_15/Main.cpp.obj
+Exercises/Exercise_14/Dolce.obj: Exercises/Exercise_14/Dolce.cpp.obj
 
-.PHONY : Exercises/Exercise_15/Main.obj
+.PHONY : Exercises/Exercise_14/Dolce.obj
 
 # target to build an object file
-Exercises/Exercise_15/Main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15/Main.cpp.obj
-.PHONY : Exercises/Exercise_15/Main.cpp.obj
+Exercises/Exercise_14/Dolce.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.obj
+.PHONY : Exercises/Exercise_14/Dolce.cpp.obj
 
-Exercises/Exercise_15/Main.i: Exercises/Exercise_15/Main.cpp.i
+Exercises/Exercise_14/Dolce.i: Exercises/Exercise_14/Dolce.cpp.i
 
-.PHONY : Exercises/Exercise_15/Main.i
+.PHONY : Exercises/Exercise_14/Dolce.i
 
 # target to preprocess a source file
-Exercises/Exercise_15/Main.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15/Main.cpp.i
-.PHONY : Exercises/Exercise_15/Main.cpp.i
+Exercises/Exercise_14/Dolce.cpp.i:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.i
+.PHONY : Exercises/Exercise_14/Dolce.cpp.i
 
-Exercises/Exercise_15/Main.s: Exercises/Exercise_15/Main.cpp.s
+Exercises/Exercise_14/Dolce.s: Exercises/Exercise_14/Dolce.cpp.s
 
-.PHONY : Exercises/Exercise_15/Main.s
+.PHONY : Exercises/Exercise_14/Dolce.s
 
 # target to generate assembly for a file
-Exercises/Exercise_15/Main.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15/Main.cpp.s
-.PHONY : Exercises/Exercise_15/Main.cpp.s
+Exercises/Exercise_14/Dolce.cpp.s:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.s
+.PHONY : Exercises/Exercise_14/Dolce.cpp.s
 
-Lessons/Lesson_14/Project14.obj: Lessons/Lesson_14/Project14.cpp.obj
+Exercises/Exercise_14/Main.obj: Exercises/Exercise_14/Main.cpp.obj
 
-.PHONY : Lessons/Lesson_14/Project14.obj
+.PHONY : Exercises/Exercise_14/Main.obj
 
 # target to build an object file
-Lessons/Lesson_14/Project14.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_14/Project14.cpp.obj
-.PHONY : Lessons/Lesson_14/Project14.cpp.obj
+Exercises/Exercise_14/Main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.obj
+.PHONY : Exercises/Exercise_14/Main.cpp.obj
 
-Lessons/Lesson_14/Project14.i: Lessons/Lesson_14/Project14.cpp.i
+Exercises/Exercise_14/Main.i: Exercises/Exercise_14/Main.cpp.i
 
-.PHONY : Lessons/Lesson_14/Project14.i
+.PHONY : Exercises/Exercise_14/Main.i
 
 # target to preprocess a source file
-Lessons/Lesson_14/Project14.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_14/Project14.cpp.i
-.PHONY : Lessons/Lesson_14/Project14.cpp.i
+Exercises/Exercise_14/Main.cpp.i:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.i
+.PHONY : Exercises/Exercise_14/Main.cpp.i
 
-Lessons/Lesson_14/Project14.s: Lessons/Lesson_14/Project14.cpp.s
+Exercises/Exercise_14/Main.s: Exercises/Exercise_14/Main.cpp.s
 
-.PHONY : Lessons/Lesson_14/Project14.s
+.PHONY : Exercises/Exercise_14/Main.s
 
 # target to generate assembly for a file
-Lessons/Lesson_14/Project14.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_14/Project14.cpp.s
-.PHONY : Lessons/Lesson_14/Project14.cpp.s
+Exercises/Exercise_14/Main.cpp.s:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.s
+.PHONY : Exercises/Exercise_14/Main.cpp.s
 
-Lessons/Lesson_15/Project15.obj: Lessons/Lesson_15/Project15.cpp.obj
+Exercises/Exercise_14/Merendina.obj: Exercises/Exercise_14/Merendina.cpp.obj
 
-.PHONY : Lessons/Lesson_15/Project15.obj
+.PHONY : Exercises/Exercise_14/Merendina.obj
 
 # target to build an object file
-Lessons/Lesson_15/Project15.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_15/Project15.cpp.obj
-.PHONY : Lessons/Lesson_15/Project15.cpp.obj
+Exercises/Exercise_14/Merendina.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.obj
+.PHONY : Exercises/Exercise_14/Merendina.cpp.obj
 
-Lessons/Lesson_15/Project15.i: Lessons/Lesson_15/Project15.cpp.i
+Exercises/Exercise_14/Merendina.i: Exercises/Exercise_14/Merendina.cpp.i
 
-.PHONY : Lessons/Lesson_15/Project15.i
-
-# target to preprocess a source file
-Lessons/Lesson_15/Project15.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_15/Project15.cpp.i
-.PHONY : Lessons/Lesson_15/Project15.cpp.i
-
-Lessons/Lesson_15/Project15.s: Lessons/Lesson_15/Project15.cpp.s
-
-.PHONY : Lessons/Lesson_15/Project15.s
-
-# target to generate assembly for a file
-Lessons/Lesson_15/Project15.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_15/Project15.cpp.s
-.PHONY : Lessons/Lesson_15/Project15.cpp.s
-
-Lessons/Lesson_16/Project16.obj: Lessons/Lesson_16/Project16.cpp.obj
-
-.PHONY : Lessons/Lesson_16/Project16.obj
-
-# target to build an object file
-Lessons/Lesson_16/Project16.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_16/Project16.cpp.obj
-.PHONY : Lessons/Lesson_16/Project16.cpp.obj
-
-Lessons/Lesson_16/Project16.i: Lessons/Lesson_16/Project16.cpp.i
-
-.PHONY : Lessons/Lesson_16/Project16.i
+.PHONY : Exercises/Exercise_14/Merendina.i
 
 # target to preprocess a source file
-Lessons/Lesson_16/Project16.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_16/Project16.cpp.i
-.PHONY : Lessons/Lesson_16/Project16.cpp.i
+Exercises/Exercise_14/Merendina.cpp.i:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.i
+.PHONY : Exercises/Exercise_14/Merendina.cpp.i
 
-Lessons/Lesson_16/Project16.s: Lessons/Lesson_16/Project16.cpp.s
+Exercises/Exercise_14/Merendina.s: Exercises/Exercise_14/Merendina.cpp.s
 
-.PHONY : Lessons/Lesson_16/Project16.s
+.PHONY : Exercises/Exercise_14/Merendina.s
 
 # target to generate assembly for a file
-Lessons/Lesson_16/Project16.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Lessons/Lesson_16/Project16.cpp.s
-.PHONY : Lessons/Lesson_16/Project16.cpp.s
+Exercises/Exercise_14/Merendina.cpp.s:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.s
+.PHONY : Exercises/Exercise_14/Merendina.cpp.s
 
 # Help Target
 help:
@@ -320,27 +266,21 @@ help:
 	@echo ... Projects_CPP
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Exercises/Exercise_14_(TODO_3)/Ciambellone.obj
-	@echo ... Exercises/Exercise_14_(TODO_3)/Ciambellone.i
-	@echo ... Exercises/Exercise_14_(TODO_3)/Ciambellone.s
-	@echo ... Exercises/Exercise_14_(TODO_3)/Dolce.obj
-	@echo ... Exercises/Exercise_14_(TODO_3)/Dolce.i
-	@echo ... Exercises/Exercise_14_(TODO_3)/Dolce.s
-	@echo ... Exercises/Exercise_14_(TODO_3)/Merendina.obj
-	@echo ... Exercises/Exercise_14_(TODO_3)/Merendina.i
-	@echo ... Exercises/Exercise_14_(TODO_3)/Merendina.s
-	@echo ... Exercises/Exercise_15/Main.obj
-	@echo ... Exercises/Exercise_15/Main.i
-	@echo ... Exercises/Exercise_15/Main.s
-	@echo ... Lessons/Lesson_14/Project14.obj
-	@echo ... Lessons/Lesson_14/Project14.i
-	@echo ... Lessons/Lesson_14/Project14.s
-	@echo ... Lessons/Lesson_15/Project15.obj
-	@echo ... Lessons/Lesson_15/Project15.i
-	@echo ... Lessons/Lesson_15/Project15.s
-	@echo ... Lessons/Lesson_16/Project16.obj
-	@echo ... Lessons/Lesson_16/Project16.i
-	@echo ... Lessons/Lesson_16/Project16.s
+	@echo ... Exercises/Exercise_14/Ciambellone.obj
+	@echo ... Exercises/Exercise_14/Ciambellone.i
+	@echo ... Exercises/Exercise_14/Ciambellone.s
+	@echo ... Exercises/Exercise_14/Cioccolatino.obj
+	@echo ... Exercises/Exercise_14/Cioccolatino.i
+	@echo ... Exercises/Exercise_14/Cioccolatino.s
+	@echo ... Exercises/Exercise_14/Dolce.obj
+	@echo ... Exercises/Exercise_14/Dolce.i
+	@echo ... Exercises/Exercise_14/Dolce.s
+	@echo ... Exercises/Exercise_14/Main.obj
+	@echo ... Exercises/Exercise_14/Main.i
+	@echo ... Exercises/Exercise_14/Main.s
+	@echo ... Exercises/Exercise_14/Merendina.obj
+	@echo ... Exercises/Exercise_14/Merendina.i
+	@echo ... Exercises/Exercise_14/Merendina.s
 .PHONY : help
 
 
