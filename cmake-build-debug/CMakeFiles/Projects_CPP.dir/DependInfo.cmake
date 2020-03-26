@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Projects_CPP/Exercises/Exercise 14/Ciambellone.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.obj"
-  "D:/Projects_CPP/Exercises/Exercise 14/Cioccolatino.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.obj"
-  "D:/Projects_CPP/Exercises/Exercise 14/Dolce.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.obj"
-  "D:/Projects_CPP/Exercises/Exercise 14/Main.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.obj"
-  "D:/Projects_CPP/Exercises/Exercise 14/Merendina.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.obj"
+  "D:/Projects_CPP/Exercises/Exercise 10/Home/Casa.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.obj"
+  "D:/Projects_CPP/Exercises/Exercise 10/Main.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.obj"
+  "D:/Projects_CPP/Exercises/Exercise 10/People/Docente.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.obj"
+  "D:/Projects_CPP/Exercises/Exercise 10/People/Persona.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.obj"
+  "D:/Projects_CPP/Exercises/Exercise 10/People/Studente.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

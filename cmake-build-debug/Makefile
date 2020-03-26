@@ -122,140 +122,140 @@ Projects_CPP/fast:
 	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/build
 .PHONY : Projects_CPP/fast
 
-Exercises/Exercise_14/Ciambellone.obj: Exercises/Exercise_14/Ciambellone.cpp.obj
+Exercises/Exercise_10/Home/Casa.obj: Exercises/Exercise_10/Home/Casa.cpp.obj
 
-.PHONY : Exercises/Exercise_14/Ciambellone.obj
-
-# target to build an object file
-Exercises/Exercise_14/Ciambellone.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.obj
-.PHONY : Exercises/Exercise_14/Ciambellone.cpp.obj
-
-Exercises/Exercise_14/Ciambellone.i: Exercises/Exercise_14/Ciambellone.cpp.i
-
-.PHONY : Exercises/Exercise_14/Ciambellone.i
-
-# target to preprocess a source file
-Exercises/Exercise_14/Ciambellone.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.i
-.PHONY : Exercises/Exercise_14/Ciambellone.cpp.i
-
-Exercises/Exercise_14/Ciambellone.s: Exercises/Exercise_14/Ciambellone.cpp.s
-
-.PHONY : Exercises/Exercise_14/Ciambellone.s
-
-# target to generate assembly for a file
-Exercises/Exercise_14/Ciambellone.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.s
-.PHONY : Exercises/Exercise_14/Ciambellone.cpp.s
-
-Exercises/Exercise_14/Cioccolatino.obj: Exercises/Exercise_14/Cioccolatino.cpp.obj
-
-.PHONY : Exercises/Exercise_14/Cioccolatino.obj
+.PHONY : Exercises/Exercise_10/Home/Casa.obj
 
 # target to build an object file
-Exercises/Exercise_14/Cioccolatino.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.obj
-.PHONY : Exercises/Exercise_14/Cioccolatino.cpp.obj
+Exercises/Exercise_10/Home/Casa.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.obj
+.PHONY : Exercises/Exercise_10/Home/Casa.cpp.obj
 
-Exercises/Exercise_14/Cioccolatino.i: Exercises/Exercise_14/Cioccolatino.cpp.i
+Exercises/Exercise_10/Home/Casa.i: Exercises/Exercise_10/Home/Casa.cpp.i
 
-.PHONY : Exercises/Exercise_14/Cioccolatino.i
+.PHONY : Exercises/Exercise_10/Home/Casa.i
 
 # target to preprocess a source file
-Exercises/Exercise_14/Cioccolatino.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.i
-.PHONY : Exercises/Exercise_14/Cioccolatino.cpp.i
+Exercises/Exercise_10/Home/Casa.cpp.i:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.i
+.PHONY : Exercises/Exercise_10/Home/Casa.cpp.i
 
-Exercises/Exercise_14/Cioccolatino.s: Exercises/Exercise_14/Cioccolatino.cpp.s
+Exercises/Exercise_10/Home/Casa.s: Exercises/Exercise_10/Home/Casa.cpp.s
 
-.PHONY : Exercises/Exercise_14/Cioccolatino.s
+.PHONY : Exercises/Exercise_10/Home/Casa.s
 
 # target to generate assembly for a file
-Exercises/Exercise_14/Cioccolatino.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.s
-.PHONY : Exercises/Exercise_14/Cioccolatino.cpp.s
+Exercises/Exercise_10/Home/Casa.cpp.s:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.s
+.PHONY : Exercises/Exercise_10/Home/Casa.cpp.s
 
-Exercises/Exercise_14/Dolce.obj: Exercises/Exercise_14/Dolce.cpp.obj
+Exercises/Exercise_10/Main.obj: Exercises/Exercise_10/Main.cpp.obj
 
-.PHONY : Exercises/Exercise_14/Dolce.obj
+.PHONY : Exercises/Exercise_10/Main.obj
 
 # target to build an object file
-Exercises/Exercise_14/Dolce.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.obj
-.PHONY : Exercises/Exercise_14/Dolce.cpp.obj
+Exercises/Exercise_10/Main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.obj
+.PHONY : Exercises/Exercise_10/Main.cpp.obj
 
-Exercises/Exercise_14/Dolce.i: Exercises/Exercise_14/Dolce.cpp.i
+Exercises/Exercise_10/Main.i: Exercises/Exercise_10/Main.cpp.i
 
-.PHONY : Exercises/Exercise_14/Dolce.i
+.PHONY : Exercises/Exercise_10/Main.i
 
 # target to preprocess a source file
-Exercises/Exercise_14/Dolce.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.i
-.PHONY : Exercises/Exercise_14/Dolce.cpp.i
+Exercises/Exercise_10/Main.cpp.i:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.i
+.PHONY : Exercises/Exercise_10/Main.cpp.i
 
-Exercises/Exercise_14/Dolce.s: Exercises/Exercise_14/Dolce.cpp.s
+Exercises/Exercise_10/Main.s: Exercises/Exercise_10/Main.cpp.s
 
-.PHONY : Exercises/Exercise_14/Dolce.s
+.PHONY : Exercises/Exercise_10/Main.s
 
 # target to generate assembly for a file
-Exercises/Exercise_14/Dolce.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.s
-.PHONY : Exercises/Exercise_14/Dolce.cpp.s
+Exercises/Exercise_10/Main.cpp.s:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.s
+.PHONY : Exercises/Exercise_10/Main.cpp.s
 
-Exercises/Exercise_14/Main.obj: Exercises/Exercise_14/Main.cpp.obj
+Exercises/Exercise_10/People/Docente.obj: Exercises/Exercise_10/People/Docente.cpp.obj
 
-.PHONY : Exercises/Exercise_14/Main.obj
+.PHONY : Exercises/Exercise_10/People/Docente.obj
 
 # target to build an object file
-Exercises/Exercise_14/Main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.obj
-.PHONY : Exercises/Exercise_14/Main.cpp.obj
+Exercises/Exercise_10/People/Docente.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.obj
+.PHONY : Exercises/Exercise_10/People/Docente.cpp.obj
 
-Exercises/Exercise_14/Main.i: Exercises/Exercise_14/Main.cpp.i
+Exercises/Exercise_10/People/Docente.i: Exercises/Exercise_10/People/Docente.cpp.i
 
-.PHONY : Exercises/Exercise_14/Main.i
+.PHONY : Exercises/Exercise_10/People/Docente.i
 
 # target to preprocess a source file
-Exercises/Exercise_14/Main.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.i
-.PHONY : Exercises/Exercise_14/Main.cpp.i
+Exercises/Exercise_10/People/Docente.cpp.i:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.i
+.PHONY : Exercises/Exercise_10/People/Docente.cpp.i
 
-Exercises/Exercise_14/Main.s: Exercises/Exercise_14/Main.cpp.s
+Exercises/Exercise_10/People/Docente.s: Exercises/Exercise_10/People/Docente.cpp.s
 
-.PHONY : Exercises/Exercise_14/Main.s
+.PHONY : Exercises/Exercise_10/People/Docente.s
 
 # target to generate assembly for a file
-Exercises/Exercise_14/Main.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.s
-.PHONY : Exercises/Exercise_14/Main.cpp.s
+Exercises/Exercise_10/People/Docente.cpp.s:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.s
+.PHONY : Exercises/Exercise_10/People/Docente.cpp.s
 
-Exercises/Exercise_14/Merendina.obj: Exercises/Exercise_14/Merendina.cpp.obj
+Exercises/Exercise_10/People/Persona.obj: Exercises/Exercise_10/People/Persona.cpp.obj
 
-.PHONY : Exercises/Exercise_14/Merendina.obj
+.PHONY : Exercises/Exercise_10/People/Persona.obj
 
 # target to build an object file
-Exercises/Exercise_14/Merendina.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.obj
-.PHONY : Exercises/Exercise_14/Merendina.cpp.obj
+Exercises/Exercise_10/People/Persona.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.obj
+.PHONY : Exercises/Exercise_10/People/Persona.cpp.obj
 
-Exercises/Exercise_14/Merendina.i: Exercises/Exercise_14/Merendina.cpp.i
+Exercises/Exercise_10/People/Persona.i: Exercises/Exercise_10/People/Persona.cpp.i
 
-.PHONY : Exercises/Exercise_14/Merendina.i
+.PHONY : Exercises/Exercise_10/People/Persona.i
 
 # target to preprocess a source file
-Exercises/Exercise_14/Merendina.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.i
-.PHONY : Exercises/Exercise_14/Merendina.cpp.i
+Exercises/Exercise_10/People/Persona.cpp.i:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.i
+.PHONY : Exercises/Exercise_10/People/Persona.cpp.i
 
-Exercises/Exercise_14/Merendina.s: Exercises/Exercise_14/Merendina.cpp.s
+Exercises/Exercise_10/People/Persona.s: Exercises/Exercise_10/People/Persona.cpp.s
 
-.PHONY : Exercises/Exercise_14/Merendina.s
+.PHONY : Exercises/Exercise_10/People/Persona.s
 
 # target to generate assembly for a file
-Exercises/Exercise_14/Merendina.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.s
-.PHONY : Exercises/Exercise_14/Merendina.cpp.s
+Exercises/Exercise_10/People/Persona.cpp.s:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.s
+.PHONY : Exercises/Exercise_10/People/Persona.cpp.s
+
+Exercises/Exercise_10/People/Studente.obj: Exercises/Exercise_10/People/Studente.cpp.obj
+
+.PHONY : Exercises/Exercise_10/People/Studente.obj
+
+# target to build an object file
+Exercises/Exercise_10/People/Studente.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.obj
+.PHONY : Exercises/Exercise_10/People/Studente.cpp.obj
+
+Exercises/Exercise_10/People/Studente.i: Exercises/Exercise_10/People/Studente.cpp.i
+
+.PHONY : Exercises/Exercise_10/People/Studente.i
+
+# target to preprocess a source file
+Exercises/Exercise_10/People/Studente.cpp.i:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.i
+.PHONY : Exercises/Exercise_10/People/Studente.cpp.i
+
+Exercises/Exercise_10/People/Studente.s: Exercises/Exercise_10/People/Studente.cpp.s
+
+.PHONY : Exercises/Exercise_10/People/Studente.s
+
+# target to generate assembly for a file
+Exercises/Exercise_10/People/Studente.cpp.s:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.s
+.PHONY : Exercises/Exercise_10/People/Studente.cpp.s
 
 # Help Target
 help:
@@ -266,21 +266,21 @@ help:
 	@echo ... Projects_CPP
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Exercises/Exercise_14/Ciambellone.obj
-	@echo ... Exercises/Exercise_14/Ciambellone.i
-	@echo ... Exercises/Exercise_14/Ciambellone.s
-	@echo ... Exercises/Exercise_14/Cioccolatino.obj
-	@echo ... Exercises/Exercise_14/Cioccolatino.i
-	@echo ... Exercises/Exercise_14/Cioccolatino.s
-	@echo ... Exercises/Exercise_14/Dolce.obj
-	@echo ... Exercises/Exercise_14/Dolce.i
-	@echo ... Exercises/Exercise_14/Dolce.s
-	@echo ... Exercises/Exercise_14/Main.obj
-	@echo ... Exercises/Exercise_14/Main.i
-	@echo ... Exercises/Exercise_14/Main.s
-	@echo ... Exercises/Exercise_14/Merendina.obj
-	@echo ... Exercises/Exercise_14/Merendina.i
-	@echo ... Exercises/Exercise_14/Merendina.s
+	@echo ... Exercises/Exercise_10/Home/Casa.obj
+	@echo ... Exercises/Exercise_10/Home/Casa.i
+	@echo ... Exercises/Exercise_10/Home/Casa.s
+	@echo ... Exercises/Exercise_10/Main.obj
+	@echo ... Exercises/Exercise_10/Main.i
+	@echo ... Exercises/Exercise_10/Main.s
+	@echo ... Exercises/Exercise_10/People/Docente.obj
+	@echo ... Exercises/Exercise_10/People/Docente.i
+	@echo ... Exercises/Exercise_10/People/Docente.s
+	@echo ... Exercises/Exercise_10/People/Persona.obj
+	@echo ... Exercises/Exercise_10/People/Persona.i
+	@echo ... Exercises/Exercise_10/People/Persona.s
+	@echo ... Exercises/Exercise_10/People/Studente.obj
+	@echo ... Exercises/Exercise_10/People/Studente.i
+	@echo ... Exercises/Exercise_10/People/Studente.s
 .PHONY : help
 
 

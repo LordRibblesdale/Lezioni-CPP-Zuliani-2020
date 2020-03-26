@@ -13,11 +13,15 @@ class Docente : Persona {
 
 
 public:
-   Docente(char iN, char iC, unsigned int nI, unsigned int nS);
-
+   Docente(string&& iN, string&& iC, unsigned int nI, unsigned int nS);
+   Docente(const Docente& docente);
+   Docente(Docente&& docente);
    ~Docente();
 
    void saluta() override;
+
+   Docente& operator=(const Docente& docente);
+   Docente& operator=(Docente&& docente);
 };
 
 

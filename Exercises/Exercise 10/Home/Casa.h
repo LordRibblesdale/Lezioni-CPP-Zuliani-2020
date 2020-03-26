@@ -12,11 +12,16 @@ class Casa {
 public:
     Casa();
     Casa(int nS, int dC);
+    Casa(const Casa& home);
+    Casa(Casa&& home);
     ~Casa();
 
     unsigned int getNumDiStanze() const;
 
     unsigned int getDistanzaDalCentro() const;
+
+    Casa& operator=(const Casa& home);
+    Casa& operator=(Casa&& home);
 };
 
 #endif //PROJECTS_CPP_CASA_H

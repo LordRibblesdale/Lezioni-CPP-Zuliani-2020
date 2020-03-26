@@ -82,31 +82,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Projects_CPP/Exercises/Exercise 14/Ciambellone.cpp">
+		<Unit filename="D:/Projects_CPP/Exercises/Exercise 10/Home/Casa.cpp">
 			<Option target="Projects_CPP"/>
 		</Unit>
-		<Unit filename="D:/Projects_CPP/Exercises/Exercise 14/Ciambellone.h">
+		<Unit filename="D:/Projects_CPP/Exercises/Exercise 10/Home/Casa.h">
 			<Option target="Projects_CPP"/>
 		</Unit>
-		<Unit filename="D:/Projects_CPP/Exercises/Exercise 14/Cioccolatino.cpp">
+		<Unit filename="D:/Projects_CPP/Exercises/Exercise 10/Main.cpp">
 			<Option target="Projects_CPP"/>
 		</Unit>
-		<Unit filename="D:/Projects_CPP/Exercises/Exercise 14/Cioccolatino.h">
+		<Unit filename="D:/Projects_CPP/Exercises/Exercise 10/People/Docente.cpp">
 			<Option target="Projects_CPP"/>
 		</Unit>
-		<Unit filename="D:/Projects_CPP/Exercises/Exercise 14/Dolce.cpp">
+		<Unit filename="D:/Projects_CPP/Exercises/Exercise 10/People/Docente.h">
 			<Option target="Projects_CPP"/>
 		</Unit>
-		<Unit filename="D:/Projects_CPP/Exercises/Exercise 14/Dolce.h">
+		<Unit filename="D:/Projects_CPP/Exercises/Exercise 10/People/Persona.cpp">
 			<Option target="Projects_CPP"/>
 		</Unit>
-		<Unit filename="D:/Projects_CPP/Exercises/Exercise 14/Main.cpp">
+		<Unit filename="D:/Projects_CPP/Exercises/Exercise 10/People/Persona.h">
 			<Option target="Projects_CPP"/>
 		</Unit>
-		<Unit filename="D:/Projects_CPP/Exercises/Exercise 14/Merendina.cpp">
+		<Unit filename="D:/Projects_CPP/Exercises/Exercise 10/People/Studente.cpp">
 			<Option target="Projects_CPP"/>
 		</Unit>
-		<Unit filename="D:/Projects_CPP/Exercises/Exercise 14/Merendina.h">
+		<Unit filename="D:/Projects_CPP/Exercises/Exercise 10/People/Studente.h">
 			<Option target="Projects_CPP"/>
 		</Unit>
 		<Unit filename="D:/Projects_CPP/CMakeLists.txt">

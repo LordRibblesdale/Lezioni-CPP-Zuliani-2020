@@ -6,8 +6,8 @@ set(CMAKE_CXX_STANDARD 17)
 #set(CMAKE_CXX_FLAGS_DEBUG "-g")
 
 #set(SourceFolder "Exercises/Exercise 13")
-#set(SourceInnerFolder "Exercises/Exercise 10 (TODO 2)/People")
-#set(SourceInnerFolder2 "Exercises/Exercise 10 (TODO 2)/Home")
+#set(SourceInnerFolder "Exercises/Exercise 10/People")
+#set(SourceInnerFolder2 "Exercises/Exercise 10/Home")
 
 #set(SourceFiles "${SourceFolder}/Main.cpp")
 #set(SourceFiles2 "${SourceInnerFolder}/Persona.h" "${SourceInnerFolder}/Studente.h" "${SourceInnerFolder}/Docente.h")
@@ -16,6 +16,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 #add_executable(Projects_CPP ${SourceFiles} ${SourceFiles2} ${SourceFiles3} ${SourceFiles4})
 
-set(SourceFiles "Exercises/Exercise 14/Dolce.h" "Exercises/Exercise 14/Merendina.cpp" "Exercises/Exercise 14/Merendina.h" "Exercises/Exercise 14/Dolce.cpp" "Exercises/Exercise 14/Ciambellone.cpp" "Exercises/Exercise 14/Ciambellone.h" "Exercises/Exercise 14/Cioccolatino.cpp" "Exercises/Exercise 14/Cioccolatino.h" "Exercises/Exercise 14/Main.cpp")
+#set(SourceFiles ${SourceFolder}/Main.cpp ${SourceFolder}/Home ${SourceFolder}/People)
 
-add_executable(Projects_CPP ${SourceFiles})
+file(GLOB_RECURSE SourceFolder "Exercises/Exercise 10/*.cpp" "Exercises/Exercise 10/*.h")
+add_executable(Projects_CPP ${SourceFolder})

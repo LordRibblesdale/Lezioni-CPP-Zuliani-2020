@@ -56,87 +56,87 @@ include CMakeFiles/Projects_CPP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Projects_CPP.dir/flags.make
 
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.obj: CMakeFiles/Projects_CPP.dir/flags.make
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.obj: ../Exercises/Exercise\ 14/Merendina.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_14\Merendina.cpp.obj -c "D:\Projects_CPP\Exercises\Exercise 14\Merendina.cpp"
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.obj: CMakeFiles/Projects_CPP.dir/flags.make
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.obj: ../Exercises/Exercise\ 10/Home/Casa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_10\Home\Casa.cpp.obj -c "D:\Projects_CPP\Exercises\Exercise 10\Home\Casa.cpp"
 
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects_CPP\Exercises\Exercise 14\Merendina.cpp" > CMakeFiles\Projects_CPP.dir\Exercises\Exercise_14\Merendina.cpp.i
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects_CPP\Exercises\Exercise 10\Home\Casa.cpp" > CMakeFiles\Projects_CPP.dir\Exercises\Exercise_10\Home\Casa.cpp.i
 
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Exercises\Exercise 14\Merendina.cpp" -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_14\Merendina.cpp.s
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Exercises\Exercise 10\Home\Casa.cpp" -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_10\Home\Casa.cpp.s
 
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.obj: CMakeFiles/Projects_CPP.dir/flags.make
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.obj: ../Exercises/Exercise\ 14/Dolce.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_14\Dolce.cpp.obj -c "D:\Projects_CPP\Exercises\Exercise 14\Dolce.cpp"
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.obj: CMakeFiles/Projects_CPP.dir/flags.make
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.obj: ../Exercises/Exercise\ 10/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_10\Main.cpp.obj -c "D:\Projects_CPP\Exercises\Exercise 10\Main.cpp"
 
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects_CPP\Exercises\Exercise 14\Dolce.cpp" > CMakeFiles\Projects_CPP.dir\Exercises\Exercise_14\Dolce.cpp.i
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects_CPP\Exercises\Exercise 10\Main.cpp" > CMakeFiles\Projects_CPP.dir\Exercises\Exercise_10\Main.cpp.i
 
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Exercises\Exercise 14\Dolce.cpp" -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_14\Dolce.cpp.s
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Exercises\Exercise 10\Main.cpp" -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_10\Main.cpp.s
 
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.obj: CMakeFiles/Projects_CPP.dir/flags.make
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.obj: ../Exercises/Exercise\ 14/Ciambellone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_14\Ciambellone.cpp.obj -c "D:\Projects_CPP\Exercises\Exercise 14\Ciambellone.cpp"
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.obj: CMakeFiles/Projects_CPP.dir/flags.make
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.obj: ../Exercises/Exercise\ 10/People/Docente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_10\People\Docente.cpp.obj -c "D:\Projects_CPP\Exercises\Exercise 10\People\Docente.cpp"
 
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects_CPP\Exercises\Exercise 14\Ciambellone.cpp" > CMakeFiles\Projects_CPP.dir\Exercises\Exercise_14\Ciambellone.cpp.i
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects_CPP\Exercises\Exercise 10\People\Docente.cpp" > CMakeFiles\Projects_CPP.dir\Exercises\Exercise_10\People\Docente.cpp.i
 
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Exercises\Exercise 14\Ciambellone.cpp" -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_14\Ciambellone.cpp.s
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Exercises\Exercise 10\People\Docente.cpp" -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_10\People\Docente.cpp.s
 
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.obj: CMakeFiles/Projects_CPP.dir/flags.make
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.obj: ../Exercises/Exercise\ 14/Cioccolatino.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_14\Cioccolatino.cpp.obj -c "D:\Projects_CPP\Exercises\Exercise 14\Cioccolatino.cpp"
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.obj: CMakeFiles/Projects_CPP.dir/flags.make
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.obj: ../Exercises/Exercise\ 10/People/Persona.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_10\People\Persona.cpp.obj -c "D:\Projects_CPP\Exercises\Exercise 10\People\Persona.cpp"
 
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects_CPP\Exercises\Exercise 14\Cioccolatino.cpp" > CMakeFiles\Projects_CPP.dir\Exercises\Exercise_14\Cioccolatino.cpp.i
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects_CPP\Exercises\Exercise 10\People\Persona.cpp" > CMakeFiles\Projects_CPP.dir\Exercises\Exercise_10\People\Persona.cpp.i
 
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Exercises\Exercise 14\Cioccolatino.cpp" -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_14\Cioccolatino.cpp.s
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Exercises\Exercise 10\People\Persona.cpp" -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_10\People\Persona.cpp.s
 
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.obj: CMakeFiles/Projects_CPP.dir/flags.make
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.obj: ../Exercises/Exercise\ 14/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_14\Main.cpp.obj -c "D:\Projects_CPP\Exercises\Exercise 14\Main.cpp"
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.obj: CMakeFiles/Projects_CPP.dir/flags.make
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.obj: ../Exercises/Exercise\ 10/People/Studente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_10\People\Studente.cpp.obj -c "D:\Projects_CPP\Exercises\Exercise 10\People\Studente.cpp"
 
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects_CPP\Exercises\Exercise 14\Main.cpp" > CMakeFiles\Projects_CPP.dir\Exercises\Exercise_14\Main.cpp.i
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects_CPP\Exercises\Exercise 10\People\Studente.cpp" > CMakeFiles\Projects_CPP.dir\Exercises\Exercise_10\People\Studente.cpp.i
 
-CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Exercises\Exercise 14\Main.cpp" -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_14\Main.cpp.s
+CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Exercises\Exercise 10\People\Studente.cpp" -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_10\People\Studente.cpp.s
 
 # Object files for target Projects_CPP
 Projects_CPP_OBJECTS = \
-"CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.obj" \
-"CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.obj" \
-"CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.obj" \
-"CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.obj" \
-"CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.obj"
+"CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.obj" \
+"CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.obj" \
+"CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.obj" \
+"CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.obj" \
+"CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.obj"
 
 # External object files for target Projects_CPP
 Projects_CPP_EXTERNAL_OBJECTS =
 
-Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Merendina.cpp.obj
-Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Dolce.cpp.obj
-Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Ciambellone.cpp.obj
-Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Cioccolatino.cpp.obj
-Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Exercises/Exercise_14/Main.cpp.obj
+Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.obj
+Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.obj
+Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.obj
+Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.obj
+Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.obj
 Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/build.make
 Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/linklibs.rsp
 Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/objects1.rsp
