@@ -30,7 +30,7 @@
  * Polimorfismo (20min): proprietà di una classe di essere sia se stessa sia la superclasse
  * |-> Identificazione di sottoclassi come la superclasse (accedendo solo alle informazioni della superclasse)
  * |-> Accesso alla sottoclasse tramite cast?
- * |-> Polimorfirmo NON FUNZIONA su variabili istanziate nella stack (solo nella heap, solo puntatori)
+ * |-> Polimorfismo NON FUNZIONA su variabili istanziate nella stack (solo nella heap, solo puntatori)
  *    |-> Puntatore della superclasse vedrà solo le sue variabili note, ma non quelle della sottoclasse. Lo accetta lo stesso però a livello di puntatore
  *    |-> Nella stack, la memoria è fissata, le variabili/funzioni della sototclasse non possono essere inserite poichè memoria fissata
  *
