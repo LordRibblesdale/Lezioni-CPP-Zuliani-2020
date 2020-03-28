@@ -4,11 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Projects_CPP/Exercises/Exercise 10/Home/Casa.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.obj"
-  "D:/Projects_CPP/Exercises/Exercise 10/Main.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.obj"
-  "D:/Projects_CPP/Exercises/Exercise 10/People/Docente.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.obj"
-  "D:/Projects_CPP/Exercises/Exercise 10/People/Persona.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.obj"
-  "D:/Projects_CPP/Exercises/Exercise 10/People/Studente.cpp" "D:/Projects_CPP/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.obj"
+  "C:/Users/Green/CLionProjects/Project_CPP_Zuliani/Exercises/Exercise 15-16/Locale.cpp" "C:/Users/Green/CLionProjects/Project_CPP_Zuliani/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Locale.cpp.obj"
+  "C:/Users/Green/CLionProjects/Project_CPP_Zuliani/Exercises/Exercise 15-16/Main.cpp" "C:/Users/Green/CLionProjects/Project_CPP_Zuliani/cmake-build-debug/CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

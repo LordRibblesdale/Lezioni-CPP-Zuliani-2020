@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Projects_CPP
+CMAKE_SOURCE_DIR = C:\Users\Green\CLionProjects\Project_CPP_Zuliani
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Projects_CPP\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Green\CLionProjects\Project_CPP_Zuliani\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\Projects_CPP\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects_CPP\cmake-build-debug\CMakeFiles D:\Projects_CPP\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Green\CLionProjects\Project_CPP_Zuliani\cmake-build-debug\CMakeFiles C:\Users\Green\CLionProjects\Project_CPP_Zuliani\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects_CPP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Green\CLionProjects\Project_CPP_Zuliani\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,140 +122,59 @@ Projects_CPP/fast:
 	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/build
 .PHONY : Projects_CPP/fast
 
-Exercises/Exercise_10/Home/Casa.obj: Exercises/Exercise_10/Home/Casa.cpp.obj
+Exercises/Exercise_15-16/Locale.obj: Exercises/Exercise_15-16/Locale.cpp.obj
 
-.PHONY : Exercises/Exercise_10/Home/Casa.obj
-
-# target to build an object file
-Exercises/Exercise_10/Home/Casa.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.obj
-.PHONY : Exercises/Exercise_10/Home/Casa.cpp.obj
-
-Exercises/Exercise_10/Home/Casa.i: Exercises/Exercise_10/Home/Casa.cpp.i
-
-.PHONY : Exercises/Exercise_10/Home/Casa.i
-
-# target to preprocess a source file
-Exercises/Exercise_10/Home/Casa.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.i
-.PHONY : Exercises/Exercise_10/Home/Casa.cpp.i
-
-Exercises/Exercise_10/Home/Casa.s: Exercises/Exercise_10/Home/Casa.cpp.s
-
-.PHONY : Exercises/Exercise_10/Home/Casa.s
-
-# target to generate assembly for a file
-Exercises/Exercise_10/Home/Casa.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Home/Casa.cpp.s
-.PHONY : Exercises/Exercise_10/Home/Casa.cpp.s
-
-Exercises/Exercise_10/Main.obj: Exercises/Exercise_10/Main.cpp.obj
-
-.PHONY : Exercises/Exercise_10/Main.obj
+.PHONY : Exercises/Exercise_15-16/Locale.obj
 
 # target to build an object file
-Exercises/Exercise_10/Main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.obj
-.PHONY : Exercises/Exercise_10/Main.cpp.obj
+Exercises/Exercise_15-16/Locale.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Locale.cpp.obj
+.PHONY : Exercises/Exercise_15-16/Locale.cpp.obj
 
-Exercises/Exercise_10/Main.i: Exercises/Exercise_10/Main.cpp.i
+Exercises/Exercise_15-16/Locale.i: Exercises/Exercise_15-16/Locale.cpp.i
 
-.PHONY : Exercises/Exercise_10/Main.i
+.PHONY : Exercises/Exercise_15-16/Locale.i
 
 # target to preprocess a source file
-Exercises/Exercise_10/Main.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.i
-.PHONY : Exercises/Exercise_10/Main.cpp.i
+Exercises/Exercise_15-16/Locale.cpp.i:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Locale.cpp.i
+.PHONY : Exercises/Exercise_15-16/Locale.cpp.i
 
-Exercises/Exercise_10/Main.s: Exercises/Exercise_10/Main.cpp.s
+Exercises/Exercise_15-16/Locale.s: Exercises/Exercise_15-16/Locale.cpp.s
 
-.PHONY : Exercises/Exercise_10/Main.s
+.PHONY : Exercises/Exercise_15-16/Locale.s
 
 # target to generate assembly for a file
-Exercises/Exercise_10/Main.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/Main.cpp.s
-.PHONY : Exercises/Exercise_10/Main.cpp.s
+Exercises/Exercise_15-16/Locale.cpp.s:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Locale.cpp.s
+.PHONY : Exercises/Exercise_15-16/Locale.cpp.s
 
-Exercises/Exercise_10/People/Docente.obj: Exercises/Exercise_10/People/Docente.cpp.obj
+Exercises/Exercise_15-16/Main.obj: Exercises/Exercise_15-16/Main.cpp.obj
 
-.PHONY : Exercises/Exercise_10/People/Docente.obj
+.PHONY : Exercises/Exercise_15-16/Main.obj
 
 # target to build an object file
-Exercises/Exercise_10/People/Docente.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.obj
-.PHONY : Exercises/Exercise_10/People/Docente.cpp.obj
+Exercises/Exercise_15-16/Main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Main.cpp.obj
+.PHONY : Exercises/Exercise_15-16/Main.cpp.obj
 
-Exercises/Exercise_10/People/Docente.i: Exercises/Exercise_10/People/Docente.cpp.i
+Exercises/Exercise_15-16/Main.i: Exercises/Exercise_15-16/Main.cpp.i
 
-.PHONY : Exercises/Exercise_10/People/Docente.i
-
-# target to preprocess a source file
-Exercises/Exercise_10/People/Docente.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.i
-.PHONY : Exercises/Exercise_10/People/Docente.cpp.i
-
-Exercises/Exercise_10/People/Docente.s: Exercises/Exercise_10/People/Docente.cpp.s
-
-.PHONY : Exercises/Exercise_10/People/Docente.s
-
-# target to generate assembly for a file
-Exercises/Exercise_10/People/Docente.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Docente.cpp.s
-.PHONY : Exercises/Exercise_10/People/Docente.cpp.s
-
-Exercises/Exercise_10/People/Persona.obj: Exercises/Exercise_10/People/Persona.cpp.obj
-
-.PHONY : Exercises/Exercise_10/People/Persona.obj
-
-# target to build an object file
-Exercises/Exercise_10/People/Persona.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.obj
-.PHONY : Exercises/Exercise_10/People/Persona.cpp.obj
-
-Exercises/Exercise_10/People/Persona.i: Exercises/Exercise_10/People/Persona.cpp.i
-
-.PHONY : Exercises/Exercise_10/People/Persona.i
+.PHONY : Exercises/Exercise_15-16/Main.i
 
 # target to preprocess a source file
-Exercises/Exercise_10/People/Persona.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.i
-.PHONY : Exercises/Exercise_10/People/Persona.cpp.i
+Exercises/Exercise_15-16/Main.cpp.i:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Main.cpp.i
+.PHONY : Exercises/Exercise_15-16/Main.cpp.i
 
-Exercises/Exercise_10/People/Persona.s: Exercises/Exercise_10/People/Persona.cpp.s
+Exercises/Exercise_15-16/Main.s: Exercises/Exercise_15-16/Main.cpp.s
 
-.PHONY : Exercises/Exercise_10/People/Persona.s
-
-# target to generate assembly for a file
-Exercises/Exercise_10/People/Persona.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Persona.cpp.s
-.PHONY : Exercises/Exercise_10/People/Persona.cpp.s
-
-Exercises/Exercise_10/People/Studente.obj: Exercises/Exercise_10/People/Studente.cpp.obj
-
-.PHONY : Exercises/Exercise_10/People/Studente.obj
-
-# target to build an object file
-Exercises/Exercise_10/People/Studente.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.obj
-.PHONY : Exercises/Exercise_10/People/Studente.cpp.obj
-
-Exercises/Exercise_10/People/Studente.i: Exercises/Exercise_10/People/Studente.cpp.i
-
-.PHONY : Exercises/Exercise_10/People/Studente.i
-
-# target to preprocess a source file
-Exercises/Exercise_10/People/Studente.cpp.i:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.i
-.PHONY : Exercises/Exercise_10/People/Studente.cpp.i
-
-Exercises/Exercise_10/People/Studente.s: Exercises/Exercise_10/People/Studente.cpp.s
-
-.PHONY : Exercises/Exercise_10/People/Studente.s
+.PHONY : Exercises/Exercise_15-16/Main.s
 
 # target to generate assembly for a file
-Exercises/Exercise_10/People/Studente.cpp.s:
-	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_10/People/Studente.cpp.s
-.PHONY : Exercises/Exercise_10/People/Studente.cpp.s
+Exercises/Exercise_15-16/Main.cpp.s:
+	$(MAKE) -f CMakeFiles\Projects_CPP.dir\build.make CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Main.cpp.s
+.PHONY : Exercises/Exercise_15-16/Main.cpp.s
 
 # Help Target
 help:
@@ -266,21 +185,12 @@ help:
 	@echo ... Projects_CPP
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Exercises/Exercise_10/Home/Casa.obj
-	@echo ... Exercises/Exercise_10/Home/Casa.i
-	@echo ... Exercises/Exercise_10/Home/Casa.s
-	@echo ... Exercises/Exercise_10/Main.obj
-	@echo ... Exercises/Exercise_10/Main.i
-	@echo ... Exercises/Exercise_10/Main.s
-	@echo ... Exercises/Exercise_10/People/Docente.obj
-	@echo ... Exercises/Exercise_10/People/Docente.i
-	@echo ... Exercises/Exercise_10/People/Docente.s
-	@echo ... Exercises/Exercise_10/People/Persona.obj
-	@echo ... Exercises/Exercise_10/People/Persona.i
-	@echo ... Exercises/Exercise_10/People/Persona.s
-	@echo ... Exercises/Exercise_10/People/Studente.obj
-	@echo ... Exercises/Exercise_10/People/Studente.i
-	@echo ... Exercises/Exercise_10/People/Studente.s
+	@echo ... Exercises/Exercise_15-16/Locale.obj
+	@echo ... Exercises/Exercise_15-16/Locale.i
+	@echo ... Exercises/Exercise_15-16/Locale.s
+	@echo ... Exercises/Exercise_15-16/Main.obj
+	@echo ... Exercises/Exercise_15-16/Main.i
+	@echo ... Exercises/Exercise_15-16/Main.s
 .PHONY : help
 
 
