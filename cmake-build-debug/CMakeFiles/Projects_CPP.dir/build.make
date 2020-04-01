@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Green\CLionProjects\Project_CPP_Zuliani
+CMAKE_SOURCE_DIR = D:\Projects_CPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Green\CLionProjects\Project_CPP_Zuliani\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Projects_CPP\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Projects_CPP.dir/depend.make
@@ -58,45 +58,60 @@ include CMakeFiles/Projects_CPP.dir/flags.make
 
 CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Locale.cpp.obj: CMakeFiles/Projects_CPP.dir/flags.make
 CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Locale.cpp.obj: ../Exercises/Exercise\ 15-16/Locale.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Green\CLionProjects\Project_CPP_Zuliani\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Locale.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_15-16\Locale.cpp.obj -c "C:\Users\Green\CLionProjects\Project_CPP_Zuliani\Exercises\Exercise 15-16\Locale.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Locale.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_15-16\Locale.cpp.obj -c "D:\Projects_CPP\Exercises\Exercise 15-16\Locale.cpp"
 
 CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Locale.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Locale.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Green\CLionProjects\Project_CPP_Zuliani\Exercises\Exercise 15-16\Locale.cpp" > CMakeFiles\Projects_CPP.dir\Exercises\Exercise_15-16\Locale.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects_CPP\Exercises\Exercise 15-16\Locale.cpp" > CMakeFiles\Projects_CPP.dir\Exercises\Exercise_15-16\Locale.cpp.i
 
 CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Locale.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Locale.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Green\CLionProjects\Project_CPP_Zuliani\Exercises\Exercise 15-16\Locale.cpp" -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_15-16\Locale.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Exercises\Exercise 15-16\Locale.cpp" -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_15-16\Locale.cpp.s
 
 CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Main.cpp.obj: CMakeFiles/Projects_CPP.dir/flags.make
 CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Main.cpp.obj: ../Exercises/Exercise\ 15-16/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Green\CLionProjects\Project_CPP_Zuliani\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_15-16\Main.cpp.obj -c "C:\Users\Green\CLionProjects\Project_CPP_Zuliani\Exercises\Exercise 15-16\Main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_15-16\Main.cpp.obj -c "D:\Projects_CPP\Exercises\Exercise 15-16\Main.cpp"
 
 CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Green\CLionProjects\Project_CPP_Zuliani\Exercises\Exercise 15-16\Main.cpp" > CMakeFiles\Projects_CPP.dir\Exercises\Exercise_15-16\Main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects_CPP\Exercises\Exercise 15-16\Main.cpp" > CMakeFiles\Projects_CPP.dir\Exercises\Exercise_15-16\Main.cpp.i
 
 CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Green\CLionProjects\Project_CPP_Zuliani\Exercises\Exercise 15-16\Main.cpp" -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_15-16\Main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Exercises\Exercise 15-16\Main.cpp" -o CMakeFiles\Projects_CPP.dir\Exercises\Exercise_15-16\Main.cpp.s
+
+CMakeFiles/Projects_CPP.dir/Lessons/Lesson_21/Project21.cpp.obj: CMakeFiles/Projects_CPP.dir/flags.make
+CMakeFiles/Projects_CPP.dir/Lessons/Lesson_21/Project21.cpp.obj: ../Lessons/Lesson\ 21/Project21.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Projects_CPP.dir/Lessons/Lesson_21/Project21.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projects_CPP.dir\Lessons\Lesson_21\Project21.cpp.obj -c "D:\Projects_CPP\Lessons\Lesson 21\Project21.cpp"
+
+CMakeFiles/Projects_CPP.dir/Lessons/Lesson_21/Project21.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projects_CPP.dir/Lessons/Lesson_21/Project21.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects_CPP\Lessons\Lesson 21\Project21.cpp" > CMakeFiles\Projects_CPP.dir\Lessons\Lesson_21\Project21.cpp.i
+
+CMakeFiles/Projects_CPP.dir/Lessons/Lesson_21/Project21.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projects_CPP.dir/Lessons/Lesson_21/Project21.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects_CPP\Lessons\Lesson 21\Project21.cpp" -o CMakeFiles\Projects_CPP.dir\Lessons\Lesson_21\Project21.cpp.s
 
 # Object files for target Projects_CPP
 Projects_CPP_OBJECTS = \
 "CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Locale.cpp.obj" \
-"CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Main.cpp.obj"
+"CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Main.cpp.obj" \
+"CMakeFiles/Projects_CPP.dir/Lessons/Lesson_21/Project21.cpp.obj"
 
 # External object files for target Projects_CPP
 Projects_CPP_EXTERNAL_OBJECTS =
 
 Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Locale.cpp.obj
 Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Main.cpp.obj
+Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/Lessons/Lesson_21/Project21.cpp.obj
 Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/build.make
 Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/linklibs.rsp
 Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/objects1.rsp
 Projects_CPP.exe: CMakeFiles/Projects_CPP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Green\CLionProjects\Project_CPP_Zuliani\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Projects_CPP.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects_CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Projects_CPP.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Projects_CPP.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +124,6 @@ CMakeFiles/Projects_CPP.dir/clean:
 .PHONY : CMakeFiles/Projects_CPP.dir/clean
 
 CMakeFiles/Projects_CPP.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Green\CLionProjects\Project_CPP_Zuliani C:\Users\Green\CLionProjects\Project_CPP_Zuliani C:\Users\Green\CLionProjects\Project_CPP_Zuliani\cmake-build-debug C:\Users\Green\CLionProjects\Project_CPP_Zuliani\cmake-build-debug C:\Users\Green\CLionProjects\Project_CPP_Zuliani\cmake-build-debug\CMakeFiles\Projects_CPP.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Projects_CPP D:\Projects_CPP D:\Projects_CPP\cmake-build-debug D:\Projects_CPP\cmake-build-debug D:\Projects_CPP\cmake-build-debug\CMakeFiles\Projects_CPP.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Projects_CPP.dir/depend
 

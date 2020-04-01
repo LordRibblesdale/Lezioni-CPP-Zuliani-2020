@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Locale.cpp.obj"
   "CMakeFiles/Projects_CPP.dir/Exercises/Exercise_15-16/Main.cpp.obj"
+  "CMakeFiles/Projects_CPP.dir/Lessons/Lesson_21/Project21.cpp.obj"
   "Projects_CPP.exe"
   "Projects_CPP.exe.manifest"
   "Projects_CPP.pdb"
