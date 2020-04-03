@@ -57,6 +57,32 @@ void removeStage(Stage* const head, Stage*& iter, int index) {
          previous->next = nullptr;
       }
    }
+   /*
+   Stage* tmp;
+
+   iter = head;
+
+   while (index > 1 && iter != nullptr) {
+      iter = iter->next;
+      index--;
+   }
+
+   if (iter == nullptr) {
+      cout << "Element not found!" << endl;
+   } else {
+      if (iter->next != nullptr) {
+         tmp = iter->next;
+         iter->next = iter->next->next;
+
+         tmp->next = nullptr;
+
+         delete(tmp);
+      } else {
+         delete(iter->next);
+         iter->next = nullptr;
+      }
+   }
+    */
 }
 
 int askIndex() {
