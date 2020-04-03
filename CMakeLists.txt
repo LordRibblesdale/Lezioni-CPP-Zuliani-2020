@@ -19,4 +19,4 @@ set(CMAKE_CXX_STANDARD 17)
 #set(SourceFiles ${SourceFolder}/Main.cpp ${SourceFolder}/Home ${SourceFolder}/People)
 
 file(GLOB_RECURSE SourceFolder "Exercises/Exercise 15-16/*.cpp" "Exercises/Exercise 15-16/*.h")
-add_executable(Projects_CPP ${SourceFolder} "Lessons/Lesson 21/Project21.cpp")
+add_executable(Projects_CPP ${SourceFolder} "Lessons/Project21.cpp")
